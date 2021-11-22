@@ -2,8 +2,8 @@
 import './App.css';
 
 import React from 'react';
-import CounterOne from './components/reducerhook/CounterOne';
-import CounterTwo from './components/reducerhook/CounterTwo';
+
+import CounterThree from './components/reducerhook/CounterThree';
 
 export const UserContext = React.createContext()
 export const BatchContext = React.createContext()
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
 
 
-     <CounterTwo/>
+     <CounterThree/>
 
     </div>
   );
