@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import ClickCounter from './components/higherorderComponents/Clickcounter';
+import HoverCounter from './components/higherorderComponents/HoverCounter';
 
   function App() {
     return(
@@ -8,6 +9,7 @@ import ClickCounter from './components/higherorderComponents/Clickcounter';
 
     <div className="App">
     <ClickCounter/>
+    <HoverCounter/>
       
     </div>
     
