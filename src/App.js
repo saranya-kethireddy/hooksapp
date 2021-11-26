@@ -1,20 +1,19 @@
 import './App.css';
 import React from 'react';
-import ClickCounter from './components/higherorderComponents/Clickcounter';
-import HoverCounter from './components/higherorderComponents/HoverCounter';
-import DocTitle from './components/customhooks/DocTitle';
-import DocTitle2 from './components/customhooks/DocTitle2';
+import Counter1 from './components/customhooks/functionality/Counter1';
+import Counter2 from './components/customhooks/functionality/Counter2';
 
-  function App() {
-    return(
+
+function App() {
+  return (
 
 
     <div className="App">
-   <DocTitle/>
-   <DocTitle2/>
-      
+      <Counter1 />
+      <Counter2 />
+
     </div>
-    
+
   );
 }
 
